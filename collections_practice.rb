@@ -23,5 +23,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.selects {|element| element.start_with?()}
+  array.selects {|element| element[0] == "a"}
 end
+
+def sum_array(array)
+  array.sum
+end
+
