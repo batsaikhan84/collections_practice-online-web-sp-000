@@ -27,6 +27,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array.sum
+  i = 0
+  array.each {|element| i += element.to_i}
 end
 
