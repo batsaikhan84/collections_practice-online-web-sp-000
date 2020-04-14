@@ -19,5 +19,5 @@ def (reverse_array)
 end
 
 def kesha_maker(array)
-  
+  array.each {|element| }
 end
