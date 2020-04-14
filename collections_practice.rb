@@ -19,5 +19,9 @@ def (reverse_array)
 end
 
 def kesha_maker(array)
-  array.each {|element| element.sub}
+  array.each {|element| element.sub(element[2]), $}
+end
+
+def find_a(array)
+  array.selects {|element| }
 end
