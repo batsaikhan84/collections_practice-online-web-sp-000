@@ -19,7 +19,7 @@ def (reverse_array)
 end
 
 def kesha_maker(array)
-  array.each {|element| element.sub(element[2]), "$"}
+  array.map {|element| element.sub(element[2]), "$"}
 end
 
 def find_a(array)
@@ -28,6 +28,6 @@ end
 
 def sum_array(array)
   i = 0
-  array.each {|element| i += element.to_i}
+  array.map {|element| i += element.to_i}
 end
 
