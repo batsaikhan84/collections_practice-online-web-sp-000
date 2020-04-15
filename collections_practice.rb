@@ -18,26 +18,4 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(array)
-  array.map {|element| element.sub(element[2]), "$"}
-end
 
-def find_a(array)
-  array.select {|element| element[0] == "a"}
-end
-
-def sum_array(array)
-  i = 0
-  array.each {|element| i += element.to_i}
-  return i
-end
-
-def add_s(array)
-  array.each_with_index.collect do |element, index|
-    if index == 1
-      element
-    else
-      element << "s"
-    end
-  end
-end
