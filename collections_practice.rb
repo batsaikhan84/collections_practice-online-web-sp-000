@@ -28,6 +28,8 @@ end
 
 def sum_array(array)
   i = 0
-  array.map {|element| i += element.to_i}
+  array.each {|element| i += element.to_i}
+  return i
 end
 
+def add_s(array)
