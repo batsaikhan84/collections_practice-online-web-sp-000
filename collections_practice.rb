@@ -36,6 +36,7 @@ def add_s(array)
       element
     else 
       element << "s"
+    end
   end
   return array
 end
