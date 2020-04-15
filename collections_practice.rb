@@ -22,4 +22,7 @@ def kesha_maker(array)
   array.collect {|element| element.sub(element[2], "$")}
 end
 
+def find_a(array)
+  array.collect {|element| start_with?()}
+end
 
